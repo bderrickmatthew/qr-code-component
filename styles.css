@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -26,7 +28,6 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 /*----------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 :root {
     --white: hsl(0, 0%, 100%);
@@ -79,7 +80,8 @@ p {
 }
 
 /*---media queries---*/
-@media (min-width: 992px) {
+
+@media (min-width: 768px) {
     body {
         display: grid;
         place-content: center;
